@@ -54,14 +54,38 @@
 		52FCCE451FEAA9F400DA0EDC /* cursoIOSprojetofinal */ = {
 			isa = PBXGroup;
 			children = (
-				52FCCE461FEAA9F400DA0EDC /* AppDelegate.swift */,
-				52FCCE481FEAA9F400DA0EDC /* ViewController.swift */,
-				52FCCE4A1FEAA9F400DA0EDC /* Main.storyboard */,
+				52FCCE5A1FEAAB8700DA0EDC /* model */,
+				52FCCE591FEAAB7500DA0EDC /* controler */,
+				52FCCE581FEAAA7000DA0EDC /* view */,
 				52FCCE4D1FEAA9F400DA0EDC /* Assets.xcassets */,
-				52FCCE4F1FEAA9F400DA0EDC /* LaunchScreen.storyboard */,
+				52FCCE461FEAA9F400DA0EDC /* AppDelegate.swift */,
 				52FCCE521FEAA9F400DA0EDC /* Info.plist */,
 			);
 			path = cursoIOSprojetofinal;
+			sourceTree = "<group>";
+		};
+		52FCCE581FEAAA7000DA0EDC /* view */ = {
+			isa = PBXGroup;
+			children = (
+				52FCCE4A1FEAA9F400DA0EDC /* Main.storyboard */,
+				52FCCE4F1FEAA9F400DA0EDC /* LaunchScreen.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		52FCCE591FEAAB7500DA0EDC /* controler */ = {
+			isa = PBXGroup;
+			children = (
+				52FCCE481FEAA9F400DA0EDC /* ViewController.swift */,
+			);
+			path = controler;
+			sourceTree = "<group>";
+		};
+		52FCCE5A1FEAAB8700DA0EDC /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
